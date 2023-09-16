@@ -39,7 +39,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc -emitDeclarationOnly && ts-node -T ./esbuild.ts",
+    "build": "tsc",
     "lint": "eslint src",
     "test": "mocha --require ts-node/register --exit --bail --slow 1000 --timeout 5000 ./test/test.ts",
     "ts": "ts-node -T"
